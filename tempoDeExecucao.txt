@@ -1,0 +1,9 @@
+caroline@caroline:~/puc/alest/testeTrabalho$ java JogoMacaquinhos arquivo.txt
+Macaquinho vencedor: 0
+Tempo de leitura do arquivo: 2 ms
+Tempo de execução do programa: 420 ms
+
+caroline@caroline:~/puc/alest/testeTrabalho$ java JogoMacaquinhos caso0050.txt
+Macaquinho vencedor: 9
+Tempo de leitura do arquivo: 17 ms
+Tempo de execução do programa: 11491 ms
