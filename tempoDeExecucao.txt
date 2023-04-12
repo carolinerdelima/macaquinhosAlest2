@@ -7,3 +7,36 @@ caroline@caroline:~/puc/alest/testeTrabalho$ java JogoMacaquinhos caso0050.txt
 Macaquinho vencedor: 9
 Tempo de leitura do arquivo: 17 ms
 Tempo de execução do programa: 11491 ms
+
+
+
+caroline@carol:~/puc/alest/testeTrabalho$ java TesteMacaco arquivo.txt
+O macaquinho vencedor é o: 0
+Tempo de leitura do arquivo: 19 ms
+Tempo de execução do programa: 211 ms
+
+caroline@carol:~/puc/alest/testeTrabalho$ java TesteMacaco caso0050.txt
+O macaquinho vencedor é o: 9
+Tempo de leitura do arquivo: 34 ms
+Tempo de execução do programa: 1801 ms
+
+caroline@carol:~/puc/alest/testeTrabalho$ java TesteMacaco caso0100.txt
+O macaquinho vencedor é o: 20
+Tempo de leitura do arquivo: 54 ms
+Tempo de execução do programa: 21059 ms
+
+
+caroline@carol:~/puc/alest/testeTrabalho$ java TesteMacaco arquivo.txt
+O macaquinho vencedor é o: 0
+Tempo de leitura do arquivo: 23 ms
+Tempo de execução do programa: 206 ms
+
+caroline@carol:~/puc/alest/testeTrabalho$ java TesteMacaco caso0050.txt
+O macaquinho vencedor é o: 9
+Tempo de leitura do arquivo: 44 ms
+Tempo de execução do programa: 1786 ms
+
+caroline@carol:~/puc/alest/testeTrabalho$ java TesteMacaco caso0100.txt
+O macaquinho vencedor é o: 20
+Tempo de leitura do arquivo: 70 ms
+Tempo de execução do programa: 20357 ms
