@@ -23,7 +23,12 @@ class Macaco {
 public class JogoMacaquinhos {
 
     public static void main(String[] args) {
-        String arquivo = "arquivo.txt";
+        if (args.length != 1) {
+            System.err.println("Uso correto via comando: java NomedoPrograma <arquivo_de_entrada.txt>");
+            System.exit(1);
+        }
+
+        String arquivo = args[0];
         
         long inicioLeitura = System.currentTimeMillis();
         int numRodadas = lerRodadas(arquivo);
@@ -84,7 +89,6 @@ public class JogoMacaquinhos {
 
     private static void simularJogo(List<Macaco> macacos, int numRodadas) {
         Map<Integer, Macaco> mapaMacaquinhos = new HashMap<>();
-        
         for (Macaco macaco : macacos) {
             mapaMacaquinhos.put(macaco.id, macaco);
         }
@@ -99,7 +103,7 @@ public class JogoMacaquinhos {
             }
         }
 
-        Macaco vencedor = encontrarVencedor(macacos);
+        Macaco vencedor = encontrarVencedor(new ArrayList<>(mapaMacaquinhos.values()));
         System.out.println("O macaquinho vencedor é o: " + vencedor.id);
     }
 
